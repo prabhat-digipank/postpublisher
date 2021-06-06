@@ -1,0 +1,619 @@
+.first{
+        height: 1020px;
+
+    .t1{
+        position: absolute;
+        width: 591px;
+        height: 72px;
+        left: 665px;
+        top: 110px;
+        
+        /* 48 px Light */
+        
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 150%;
+        /* identical to box height, or 72px */
+        
+        display: flex;
+        align-items: center;
+        
+        /* Navy */
+        
+        color: #16056B;
+        
+        
+    }
+
+    .t2{
+        position: absolute;
+        width: 870px;
+        height: 72px;
+        left: 519px;
+        top: 198px;
+        
+        /* 24 px Regular */
+        
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 150%;
+        /* or 36px */
+        
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        /* Placeholder */
+        
+        color: #A0A3BD;
+        
+        
+    }
+
+    .forplans{
+        
+        display: flex;
+
+        .t3{
+            position: absolute;
+            width: 150px;
+            height: 36px;
+            left: 780px;
+            top: 310px;
+            
+            /* 24 px Regular */
+            
+            font-family: Lato;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 150%;
+            /* identical to box height, or 36px */
+            
+            display: flex;
+            align-items: center;
+            text-align: center;
+            
+            /* Title-Active */
+            
+            color: #14142B;
+            
+            
+        }
+
+        .toggle{
+
+            position: absolute;
+            // width: 64px;
+            left: calc(50% - 64px/2);
+            top:317px ;
+            margin-left: 43px;
+            // bottom: 0%;
+            
+            /* Grayscale / Line */
+            
+            // background: #D9DBE9;
+            border-radius: 30px;
+
+            .toggle-switch {
+                position: relative;
+                // position: absolute;
+                display: inline-block;
+                width: 50px;
+                height: 25px;
+            }
+              .toggle-switch input[type="checkbox"] {
+                display: none;
+              }
+              .toggle-switch .switch {
+                position: absolute;
+                cursor: pointer;
+                background-color: #ccc;
+                border-radius: 25px;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                transition: background-color 0.2s ease;
+              }
+              .toggle-switch .switch::before {
+                position: absolute;
+                content: "";
+                left: 2px;
+                top: 2px;
+                width: 21px;
+                height: 21px;
+                background-color: rgb(255, 255, 255);
+                border-radius: 50%;
+                transition: transform 0.3s ease;
+              }
+              .toggle-switch input[type="checkbox"]:checked + .switch::before {
+                transform: translateX(25px);
+                background-color: #6699cc;
+              }
+              .toggle-switch input[type="checkbox"]:checked + .switch {
+                background-color: #336699;
+              }
+        }
+        
+
+              .t4{
+                position: absolute;
+                width: 135px;
+                height: 36px;
+                left: 990px;
+                top: 310px;
+                
+                /* 24 px Regular */
+                
+                font-family: Lato;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 150%;
+                /* identical to box height, or 36px */
+                
+                display: flex;
+                align-items: center;
+                text-align: center;
+                
+                /* Title-Active */
+                
+                color: #14142B;
+                
+                
+              }
+        
+    }
+
+    .box{
+        display: flex;
+        
+
+        .box1{
+            position: absolute;
+            width: 600px;
+            height: 570px;
+            left: 10px;
+            top: 394px;
+            
+            /* Off-white */
+            
+            background: #FCFCFC;
+            /* Line */
+            
+            border: 1px solid #D9DBE9;
+
+            box-sizing: border-box;
+            border-radius: 30px;
+
+            .word1{
+                .w1{
+                    position: absolute;
+                    width: 101.19px;
+                    height: 48px;
+                    left: 50px;
+                    // top: 426px;
+                    
+                    /* 32 px Bold */
+                    
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 32px;
+                    line-height: 150%;
+                    /* identical to box height, or 48px */
+                    
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    padding-top: 15px;
+                    
+                    /* Title-Active */
+                    
+                    color: #14142B;
+                }
+                    .w2{
+                        position: absolute;
+                        width: 51.27px;
+                        height: 48px;
+                        left: 530px;
+                        // top: 426px;
+                        
+                        /* 32 px Bold */
+                        
+                        font-family: Lato;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 32px;
+                        line-height: 150%;
+                        /* identical to box height, or 48px */
+                        
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                        
+                        /* Title-Active */
+                        
+                        color: #14142B;
+                        padding-top: 15px;
+                    }
+                }
+
+                .sentences{
+
+                    padding-top: 70px;
+
+                .word2{
+                    
+                    display: flex;
+                    align-items: center;
+                    margin-left: 30px;
+                    
+                    
+                    .w3{
+                        margin-left: 15px 15px;
+                        position: static;
+                        width: 386px;
+                        height: 24px;
+                        left: 32px;
+                        top: 10px;
+                        
+                        /* 16 px Semibold */
+                        
+                        font-family: Lato;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 150%;
+                        /* identical to box height, or 24px */
+                        
+                        display: flex;
+                        align-items: center;
+                        
+                        /* Title-Active */
+                        
+                        color: #14142B;
+                        
+                        
+                        /* Inside Auto Layout */
+                        
+                        flex: none;
+                        order: 1;
+                        flex-grow: 0;
+                        margin: 13px 10px;
+                        // margin: 20px;
+                        padding-top: 5px;
+                        
+                    }
+                }
+
+            }
+                .btn{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 24px 10px;
+                    
+                    position: absolute;
+                    width: 535.65px;
+                    height: 62px;
+                    left: 30px;
+                    top: 480px;
+                    
+                    /* Navy */
+                    
+                    background: #16056B;
+                    border-radius: 15px;
+                    
+                
+                    
+                    .lo{
+                        color: white;
+                    }
+            }
+        }
+
+        .box2{
+            position: absolute;
+            
+            width: 600px;
+            height: 570px;
+            left: 620px;
+            top: 394px;
+            
+            /* Off-white */
+            
+            background: #FCFCFC;
+            /* Line */
+            
+            border: 1px solid #D9DBE9;
+
+            box-sizing: border-box;
+            border-radius: 30px;
+
+            .word1{
+                .w1{
+                    position: absolute;
+                    width: 101.19px;
+                    height: 48px;
+                    left: 50px;
+                    // top: 426px;
+                    
+                    /* 32 px Bold */
+                    
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 32px;
+                    line-height: 150%;
+                    /* identical to box height, or 48px */
+                    
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    padding-top: 15px;
+                    
+                    /* Title-Active */
+                    
+                    color: #14142B;
+                }
+                    .w2{
+                        position: absolute;
+                        width: 51.27px;
+                        height: 48px;
+                        left: 515px;
+                        // top: 426px;
+                        
+                        /* 32 px Bold */
+                        
+                        font-family: Lato;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 32px;
+                        line-height: 150%;
+                        /* identical to box height, or 48px */
+                        
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                        
+                        /* Title-Active */
+                        
+                        color: #14142B;
+                        padding-top: 15px;
+                    }
+                }
+
+                .sentences{
+
+                    padding-top: 70px;
+
+                .word2{
+                    
+                    display: flex;
+                    align-items: center;
+                    margin-left: 30px;
+                    
+                    
+                    .w3{
+                        margin-left: 15px 15px;
+                        position: static;
+                        width: 386px;
+                        height: 24px;
+                        left: 32px;
+                        top: 10px;
+                        
+                        /* 16 px Semibold */
+                        
+                        font-family: Lato;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 150%;
+                        /* identical to box height, or 24px */
+                        
+                        display: flex;
+                        align-items: center;
+                        
+                        /* Title-Active */
+                        
+                        color: #14142B;
+                        
+                        
+                        /* Inside Auto Layout */
+                        
+                        flex: none;
+                        order: 1;
+                        flex-grow: 0;
+                        margin: 13px 10px;
+                        // margin: 20px;
+                        padding-top: 5px;
+                        
+                    }
+                }
+
+            }
+                .btn{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 24px 10px;
+                    
+                    position: absolute;
+                    width: 535.65px;
+                    height: 62px;
+                    left: 30px;
+                    top: 480px;
+                    
+                    /* Navy */
+                    
+                    background: #16056B;
+                    border-radius: 15px;
+                    
+                
+                    
+                    .lo{
+                        color: white;
+                    }
+            }
+        }
+
+
+        .box3{
+            position: absolute;
+            
+            width: 600px;
+            height: 570px;
+            left: 1230px;
+            top: 394px;
+            
+            /* Off-white */
+            
+            background: #FCFCFC;
+            /* Line */
+            
+            border: 1px solid #D9DBE9;
+
+            box-sizing: border-box;
+            border-radius: 30px;
+
+            .word1{
+                .w1{
+                    position: absolute;
+                    width: 101.19px;
+                    height: 48px;
+                    left: 50px;
+                    // top: 426px;
+                    
+                    /* 32 px Bold */
+                    
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 32px;
+                    line-height: 150%;
+                    /* identical to box height, or 48px */
+                    
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    padding-top: 15px;
+                    
+                    /* Title-Active */
+                    
+                    color: #14142B;
+                }
+                    .w2{
+                        position: absolute;
+                        width: 51.27px;
+                        height: 48px;
+                        left: 515px;
+                        // top: 426px;
+                        
+                        /* 32 px Bold */
+                        
+                        font-family: Lato;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 32px;
+                        line-height: 150%;
+                        /* identical to box height, or 48px */
+                        
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                        
+                        /* Title-Active */
+                        
+                        color: #14142B;
+                        padding-top: 15px;
+                    }
+                }
+
+                .sentences{
+
+                    padding-top: 70px;
+
+                .word2{
+                    
+                    display: flex;
+                    align-items: center;
+                    margin-left: 30px;
+                    
+                    
+                    .w3{
+                        margin-left: 15px 15px;
+                        position: static;
+                        width: 386px;
+                        height: 24px;
+                        left: 32px;
+                        top: 10px;
+                        
+                        /* 16 px Semibold */
+                        
+                        font-family: Lato;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 150%;
+                        /* identical to box height, or 24px */
+                        
+                        display: flex;
+                        align-items: center;
+                        
+                        /* Title-Active */
+                        
+                        color: #14142B;
+                        
+                        
+                        /* Inside Auto Layout */
+                        
+                        flex: none;
+                        order: 1;
+                        flex-grow: 0;
+                        margin: 13px 10px;
+                        // margin: 20px;
+                        padding-top: 5px;
+                        
+                    }
+                }
+
+            }
+                .btn{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 24px 10px;
+                    
+                    position: absolute;
+                    width: 535.65px;
+                    height: 62px;
+                    left: 30px;
+                    top: 480px;
+                    
+                    /* Navy */
+                    
+                    background: #16056B;
+                    border-radius: 15px;
+                    
+                
+                    
+                    .lo{
+                        color: white;
+                    }
+            }
+        }
+
+
+
+    }
+}
+

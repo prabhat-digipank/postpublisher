@@ -1,0 +1,161 @@
+.rectangle{
+    display: grid;
+    grid-template-columns: auto auto;
+
+    .forimage{
+        display: flex;
+        margin-top: 50px;
+
+        .img1{
+            padding-top: 420px;
+        }
+        .img2{
+            position:absolute;
+            padding-left: 320px;
+        }
+    }
+
+    .forbox{
+        display: flex;
+
+        .box{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 32px;
+            
+            position: absolute;
+            width: 460px;
+            height: 330px;
+            left: 1130px;
+            top: 265px;
+            
+            /* Background */
+            
+            background: #F7F7FC;
+            box-shadow: 0px 8px 20px;
+            border-radius: 15px;
+            
+            .t1{
+                position: static;
+                width: 461px;
+                height: 72px;
+                left: 0px;
+                left: 0px;
+                top: 0px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 40px;
+                line-height: 150%;
+                color: #f45b0f;
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                margin: -20px 0px;
+                margin-top: 160px;
+                padding-bottom: 30px;
+            
+            }
+            .t2{
+                font-family: Lato;
+                font-weight: 300;
+                line-height: 130%;
+                font-size: 22px;
+                color: #5739f0;
+                padding-bottom: 70px;
+                width: 400px;
+                padding-bottom: 20px;
+                
+            }
+
+                .t3{
+                    font-family: Lato;
+                    font-weight: 300;
+                    line-height: 130%;
+                    font-size: 18px;
+                    color: rgb(238, 94, 42);
+                    // padding-top: 60px;
+                    padding-top: 8px;
+                    }}
+
+                    .b{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: flex-start;
+                        padding-right: 40px;
+                        
+                        position: static;
+                        width: 480px;
+                        height: 72px;
+                        left: 32px;
+                        top: 224px;
+                        margin-bottom: 5px;
+                        padding-bottom: 5px;
+                        
+
+                        .b1>input{
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            padding: 24px;
+                            margin-left: 10px;
+                            position: static;
+                            width: 90px;
+                            height: 72px;
+                            left: 0px;
+                            top: 0px;
+                            
+                            /* Navy */
+                            
+                            border: 1px solid #16056B;
+                            box-sizing: border-box;
+                            border-radius: 15px;
+                            
+                            /* Inside Auto Layout */
+                            
+                            flex: none;
+                            order: 0;
+                            flex-grow: 0;
+                            margin: 0px 20px;
+                            padding-left: 37px;
+                            margin-left: 9px;
+                        }
+                    }
+
+                    .btn{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 24px 10px;
+
+                        position: static;
+                        width: 461px;
+                        height: 72px;
+                        // left: 32px;
+                        // top: 500px;
+
+                        background: #16056B;
+                        border-radius: 15px;
+                        flex: none;
+                        order: 5;
+                        flex-grow: 0;
+                        margin: 24px 0px;
+                        cursor: pointer;
+                        margin-bottom: 160px;
+                        
+                        .lo{
+                            color: white;
+                        }
+                    }
+
+                    
+        
+        .img3{
+            margin-left: 880px;
+        }
+    }
+
+}
