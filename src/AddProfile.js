@@ -39,10 +39,12 @@ const AddProfile = () => {
         <div className="txt1">Add your social profile</div>
 
         <div className="txt2">Connect social profile you'd like to manage.</div>
-        
+
+
+        <div>
         <div className="rect1"></div>
         <div className="rect2"></div>
-        <div className="txt3">You can add upto 3 social profile in free plan</div>
+        <div className="txt3">You can add upto 3 social profile in free plan</div></div>
         
             <div className="box1">
 
@@ -91,6 +93,7 @@ const AddProfile = () => {
 
             </div>
 
+            
         </div>
     )
 }
