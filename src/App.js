@@ -6,7 +6,7 @@
     
 // import Subscription from './Subscription';
 
-  // import AddProfile from './AddProfile'; 
+  import AddProfile from './AddProfile'; 
 
   import Landing from './Landing';
 
@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
 
-    <Landing/>
+    <AddProfile/>
       
     </div>
   );
