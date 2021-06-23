@@ -8,7 +8,7 @@
 
   import AddProfile from './AddProfile'; 
 
-  import Landing from './Landing';
+  // import Landing from './Landing';
 
 function App() {
   return (

@@ -62,7 +62,7 @@ const AddProfile = () => {
 
             <div className="box2">
             
-            <div className="mainlinked">    
+            <div className="mainlink">    
             <div className="link"><img src={linkedin} alt="linkedin"></img></div>
             <div className="linked">Linkedin</div>
             </div>
