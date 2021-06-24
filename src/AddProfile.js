@@ -24,8 +24,11 @@ const AddProfile = () => {
             </div>
 
             <div className="submenu">
-
+                
+                <div className="d1"></div>
                 <div className="img1"><img src={first} alt="first"></img></div>
+                <div className="d2"></div>
+                
                 <div className="img2"><img src={second} alt="first"></img></div>
                 <div className="img3"><img src={third} alt="first"></img></div>
                 <div className="img4"><img src={four} alt="first"></img></div>

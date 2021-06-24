@@ -1,606 +1,584 @@
-.mainmenu{
+.mainmenu {
+  background: #f7f7fc;
 
-background: #F7F7FC;
+  .menu {
+    position: absolute;
+    width: 96px;
+    height: 1018px;
+    left: 0px;
+    top: 0px;
 
-    .menu{
+    /* Navy */
+
+    background: #16056b;
+
+    .profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px 8px;
+
+      position: absolute;
+      width: 96px;
+      height: 96px;
+      left: 0px;
+      top: 24px;
+    }
+
+    .submenu {
+      position: absolute;
+      width: 96px;
+      height: 478px;
+      left: 0px;
+      top: 197px;
+
+      .d1{
         position: absolute;
-        width: 96px;
-        height: 1018px;
+        width: 3px;
+        height: 46px;
         left: 0px;
         top: 0px;
         
-        /* Navy */
+        /* Columbia blue */
         
-        background: #16056B;
+        background: #B4D7FE;
+        
+      }
 
-        .profile{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 0px 8px;
-            
-            position: absolute;
-            width: 96px;
-            height: 96px;
-            left: 0px;
-            top: 24px;
-        }
-
-        .submenu{
-            position: absolute;
-            width: 96px;
-            height: 478px;
-            left: 0px;
-            top: 197px;
-            
-            .img1{
-            position: absolute;
-            width: 24px;
-            height: 24px;
-            left: 36px;
-            top: 11px;
-            }
-
-            .img2{
-                position: absolute;
-                width: 24px;
-                height: 24px;
-                left: 36px;
-                top: 78px;
-                
-                }
-
-                .img3{
-                    position: absolute;
-                    width: 24px;
-                    height: 24px;
-                    left: 36px;
-                    top: 150px;
-                    
-                }
-
-                .img4{
-                    position: absolute;
-                    width: 24px;
-                    height: 24px;
-                    left: 36px;
-                    top: 222px;
-                    
-                }
-                .img5{
-                    position: absolute;
-                    width: 24px;
-                    height: 24px;
-                    left: 36px;
-                    top: 294px;
-                    
-                }
-
-                .img6{
-                    position: absolute;
-                    width: 24px;
-                    height: 24px;
-                    left: 36px;
-                    top: 366px;
-                                        
-                }
-                .img7{
-                    position: absolute;
-                    width: 24px;
-                    height: 24px;
-                    left: 36px;
-                    top: 438px;
-                }
-        }
-    }
-
-    .txt1{
+      .img1 {
         position: absolute;
-        width: 318px;
-        height: 48px;
-        left: 175px;
-        top: 148px;
-        
-        /* 32 px Bold */
-        
-        font-family: Lato;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 32px;
-        line-height: 150%;
-        /* identical to box height, or 48px */
-        
-        
-        /* Navy */
-        
-        color: #16056B;
-        
-    }
-
-    .txt2{
-        position: absolute;
-        width: 303px;
+        width: 24px;
         height: 24px;
-        left: 174px;
-        top: 204px;
+        left: 36px;
+        top: 11px;
+      }
+
+      .d2{
+        position: absolute;
+        width: 96px;
+        height: 46px;
+        left: 0px;
+        top: 0px;
         
-        /* 16 px Regular */
-        
+        background: linear-gradient(90deg, rgba(86, 150, 250, 0.51) 0%, rgba(86, 150, 250, 0) 100%);
+      }
+
+      .img2 {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 36px;
+        top: 78px;
+      }
+
+      .img3 {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 36px;
+        top: 150px;
+      }
+
+      .img4 {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 36px;
+        top: 222px;
+      }
+      .img5 {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 36px;
+        top: 294px;
+      }
+
+      .img6 {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 36px;
+        top: 366px;
+      }
+      .img7 {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 36px;
+        top: 438px;
+      }
+    }
+  }
+  
+
+  .txt1 {
+    position: absolute;
+    width: 318px;
+    height: 48px;
+    left: 175px;
+    top: 148px;
+
+    /* 32 px Bold */
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+
+    /* Navy */
+
+    color: #16056b;
+  }
+
+  .txt2 {
+    position: absolute;
+    width: 303px;
+    height: 24px;
+    left: 174px;
+    top: 204px;
+
+    /* 16 px Regular */
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    text-align: center;
+
+    /* Label */
+
+    color: #6e7191;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 2px;
+    height: 32px;
+    left: 174px;
+    top: 252px;
+
+    /* Maya blue */
+
+    background: #5696fa;
+    border-radius: 30px;
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 347px;
+    height: 32px;
+    left: 174px;
+    top: 252px;
+
+    /* Maya blue */
+
+    background: #5696fa;
+    opacity: 0.2;
+    border-radius: 1px;
+  }
+
+  .txt3 {
+    position: absolute;
+    width: 315px;
+    height: 24px;
+    left: 190px;
+    top: 256px;
+
+    /* 16 px Semibold */
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    text-align: center;
+
+    /* Maya blue */
+
+    color: #5696fa;
+  }
+
+  .box1 {
+    position: absolute;
+    width: 461px;
+    height: 226px;
+    left: 174px;
+    top: 316px;
+
+    /* Input Background */
+
+    background: #eff0f7;
+    border-radius: 10px;
+
+    .mainface {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+
+      position: absolute;
+      width: 193px;
+      height: 50px;
+      left: 32px;
+      top: 32px;
+
+      .face {
+        position: static;
+        width: 50px;
+        height: 50px;
+        left: 0px;
+        top: 0px;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 8px;
+      }
+
+      .facebook {
+        position: static;
+        width: 135px;
+        height: 48px;
+        left: 58px;
+        top: 1px;
+
+        /* 32 px Regular */
+
         font-family: Lato;
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
+        font-size: 32px;
         line-height: 150%;
-        /* identical to box height, or 24px */
-        
-        text-align: center;
-        
-        /* Label */
-        
-        color: #6E7191;
+        /* identical to box height, or 48px */
+
+        /* Navy */
+
+        color: #16056b;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 8px;
+      }
     }
 
-    .rect1{
-        position: absolute;
-        width: 2px;
-        height: 32px;
-        left: 174px;
-        top: 252px;
-        
-        /* Maya blue */
-        
-        background: #5696FA;
-        border-radius: 30px;
+    .cnct {
+      position: absolute;
+      width: 292px;
+      height: 24px;
+      left: 33px;
+      top: 102px;
+
+      /* 16 px Semibold */
+
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 150%;
+      /* identical to box height, or 24px */
+
+      /* Label */
+
+      color: #6e7191;
     }
 
-    .rect2{
-        position: absolute;
-        width: 347px;
-        height: 32px;
-        left: 174px;
-        top: 252px;
-        
-        /* Maya blue */
-        
-        background: #5696FA;
-        opacity: 0.2;
-        border-radius: 1px;
+    .cnct1 {
+      position: absolute;
+      width: 299px;
+      height: 24px;
+      left: 33px;
+      top: 166px;
+
+      /* 16 px Semibold */
+
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 150%;
+      /* identical to box height, or 24px */
+
+      /* Label */
+
+      color: #6e7191;
     }
 
-    .txt3{
-        position: absolute;
-        width: 315px;
-        height: 24px;
-        left: 190px;
-        top: 256px;
-        
-        /* 16 px Semibold */
-        
+    .plus {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      left: 397px;
+      top: 162px;
+    }
+    .plus1 {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      left: 397px;
+      top: 98px;
+    }
+  }
+
+  .box2 {
+    position: absolute;
+    width: 461px;
+    height: 226px;
+    left: 650px;
+    top: 317px;
+
+    /* Input Background */
+
+    background: #eff0f7;
+    border-radius: 10px;
+
+    .mainlink {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+
+      position: absolute;
+      width: 193px;
+      height: 49.95px;
+      left: 32px;
+      top: 32px;
+
+      .link {
+        position: static;
+        left: 0%;
+        right: 74.09%;
+        top: 0%;
+        bottom: 0%;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 8px;
+      }
+      .linked {
+        position: static;
+        width: 119px;
+        height: 48px;
+        left: 58px;
+        top: 0.98px;
+
+        /* 32 px Regular */
+
         font-family: Lato;
         font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
+        font-weight: normal;
+        font-size: 32px;
         line-height: 150%;
-        /* identical to box height, or 24px */
-        
-        text-align: center;
-        
-        /* Maya blue */
-        
-        color: #5696FA;
-        
-        
-        
+        /* identical to box height, or 48px */
+
+        /* Navy */
+
+        color: #16056b;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 8px;
+      }
     }
 
-    .box1{
-        position: absolute;
-        width: 461px;
-        height: 226px;
-        left: 174px;
-        top: 316px;
-        
-        /* Input Background */
-        
-        background: #EFF0F7;
-        border-radius: 10px;
+    .cnct2 {
+      position: absolute;
+      width: 281px;
+      height: 24px;
+      left: 33px;
+      top: 102px;
 
-        .mainface{
+      /* 16 px Semibold */
 
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            padding: 0px;
-            
-            position: absolute;
-            width: 193px;
-            height: 50px;
-            left: 32px;
-            top: 32px;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 150%;
+      /* identical to box height, or 24px */
 
-        .face{
-            position: static;
-            width: 50px;
-            height: 50px;
-            left: 0px;
-            top: 0px;
-            
-            
-            /* Inside Auto Layout */
-            
-            flex: none;
-            order: 0;
-            flex-grow: 0;
-            margin: 0px 8px;
-        }
+      /* Label */
 
-        .facebook{
-            position: static;
-            width: 135px;
-            height: 48px;
-            left: 58px;
-            top: 1px;
-            
-            /* 32 px Regular */
-            
-            font-family: Lato;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 32px;
-            line-height: 150%;
-            /* identical to box height, or 48px */
-            
-            
-            /* Navy */
-            
-            color: #16056B;
-            
-            
-            /* Inside Auto Layout */
-            
-            flex: none;
-            order: 1;
-            flex-grow: 0;
-            margin: 0px 8px;
-        }
+      color: #6e7191;
     }
 
-    .cnct{
+    .cnct3 {
+      position: absolute;
+      width: 293px;
+      height: 24px;
+      left: 33px;
+      top: 166px;
 
-        position: absolute;
-        width: 292px;
-        height: 24px;
-        left: 33px;
-        top: 102px;
-        
-        /* 16 px Semibold */
-        
+      /* 16 px Semibold */
+
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 150%;
+      /* identical to box height, or 24px */
+
+      /* Label */
+
+      color: #6e7191;
+    }
+
+    .plus {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      left: 397px;
+      top: 162px;
+    }
+    .plus1 {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      left: 397px;
+      top: 98px;
+    }
+  }
+
+  .box3 {
+    position: absolute;
+    width: 461px;
+    height: 226px;
+    left: 1126px;
+    top: 316px;
+
+    /* Input Background */
+
+    background: #eff0f7;
+    border-radius: 10px;
+
+    .maintwitter {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+
+      position: absolute;
+      width: 193px;
+      height: 49.95px;
+      left: 32px;
+      top: 32px;
+
+      .twit {
+        position: static;
+        left: 0%;
+        right: 74.09%;
+        top: 0%;
+        bottom: 0%;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 8px;
+      }
+      .twitter {
+        position: static;
+        width: 119px;
+        height: 48px;
+        left: 58px;
+        top: 0.98px;
+
+        /* 32 px Regular */
+
         font-family: Lato;
         font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
+        font-weight: normal;
+        font-size: 32px;
         line-height: 150%;
-        /* identical to box height, or 24px */
-        
-        
-        /* Label */
-        
-        color: #6E7191;
-        
+        /* identical to box height, or 48px */
+
+        /* Navy */
+
+        color: #16056b;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 8px;
+      }
     }
 
-    .cnct1{
+    .cnct2 {
+      position: absolute;
+      width: 281px;
+      height: 24px;
+      left: 33px;
+      top: 102px;
 
-        position: absolute;
-        width: 299px;
-        height: 24px;
-        left: 33px;
-        top: 166px;
-        
-        /* 16 px Semibold */
-        
-        font-family: Lato;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 150%;
-        /* identical to box height, or 24px */
-        
-        
-        /* Label */
-        
-        color: #6E7191;
-        
+      /* 16 px Semibold */
+
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 150%;
+      /* identical to box height, or 24px */
+
+      /* Label */
+
+      color: #6e7191;
     }
 
-        .plus{
-            position: absolute;
-            width: 32px;
-            height: 32px;
-            left: 397px;
-            top: 162px;
-            
-        }
-        .plus1{
-            position: absolute;
-            width: 32px;
-            height: 32px;
-            left: 397px;
-            top: 98px;
-        }
-        
-            
-}
+    .cnct3 {
+      position: absolute;
+      width: 293px;
+      height: 24px;
+      left: 33px;
+      top: 166px;
 
-    .box2{
-        position: absolute;
-        width: 461px;
-        height: 226px;
-        left: 650px;
-        top: 317px;
-        
-        /* Input Background */
-        
-        background: #EFF0F7;
-        border-radius: 10px;
+      /* 16 px Semibold */
 
-        .mainlink{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            padding: 0px;
-            
-            position: absolute;
-            width: 193px;
-            height: 49.95px;
-            left: 32px;
-            top: 32px;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 150%;
+      /* identical to box height, or 24px */
 
-            .link{
-                position: static;
-                left: 0%;
-                right: 74.09%;
-                top: 0%;
-                bottom: 0%;
-                
-                
-                /* Inside Auto Layout */
-                
-                flex: none;
-                order: 0;
-                flex-grow: 0;
-                margin: 0px 8px;
-            }
-            .linked{
-                position: static;
-                width: 119px;
-                height: 48px;
-                left: 58px;
-                top: 0.98px;
-                
-                /* 32 px Regular */
-                
-                font-family: Lato;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 32px;
-                line-height: 150%;
-                /* identical to box height, or 48px */
-                
-                
-                /* Navy */
-                
-                color: #16056B;
-                
-                
-                /* Inside Auto Layout */
-                
-                flex: none;
-                order: 1;
-                flex-grow: 0;
-                margin: 0px 8px;
-            }
-            
-        }
+      /* Label */
 
-        .cnct2{
-            position: absolute;
-            width: 281px;
-            height: 24px;
-            left: 33px;
-            top: 102px;
-            
-            /* 16 px Semibold */
-            
-            font-family: Lato;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 150%;
-            /* identical to box height, or 24px */
-            
-            
-            /* Label */
-            
-            color: #6E7191;
-            
-        }
-
-        .cnct3{
-            position: absolute;
-            width: 293px;
-            height: 24px;
-            left: 33px;
-            top: 166px;
-            
-            /* 16 px Semibold */
-            
-            font-family: Lato;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 150%;
-            /* identical to box height, or 24px */
-            
-            
-            /* Label */
-            
-            color: #6E7191;
-            
-        }
-
-        .plus{
-            position: absolute;
-            width: 32px;
-            height: 32px;
-            left: 397px;
-            top: 162px;
-            
-        }
-        .plus1{
-            position: absolute;
-            width: 32px;
-            height: 32px;
-            left: 397px;
-            top: 98px;
-        }
-        
+      color: #6e7191;
     }
 
-
-    .box3{
-            position: absolute;
-width: 461px;
-height: 226px;
-left: 1126px;
-top: 316px;
-
-/* Input Background */
-
-background: #EFF0F7;
-border-radius: 10px;
-
-        .maintwitter{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            padding: 0px;
-            
-            position: absolute;
-            width: 193px;
-            height: 49.95px;
-            left: 32px;
-            top: 32px;
-
-            .twit{
-                position: static;
-                left: 0%;
-                right: 74.09%;
-                top: 0%;
-                bottom: 0%;
-                
-                
-                /* Inside Auto Layout */
-                
-                flex: none;
-                order: 0;
-                flex-grow: 0;
-                margin: 0px 8px;
-            }
-            .twitter{
-                position: static;
-                width: 119px;
-                height: 48px;
-                left: 58px;
-                top: 0.98px;
-                
-                /* 32 px Regular */
-                
-                font-family: Lato;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 32px;
-                line-height: 150%;
-                /* identical to box height, or 48px */
-                
-                
-                /* Navy */
-                
-                color: #16056B;
-                
-                
-                /* Inside Auto Layout */
-                
-                flex: none;
-                order: 1;
-                flex-grow: 0;
-                margin: 0px 8px;
-            }
-            
-        }
-
-        .cnct2{
-            position: absolute;
-            width: 281px;
-            height: 24px;
-            left: 33px;
-            top: 102px;
-            
-            /* 16 px Semibold */
-            
-            font-family: Lato;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 150%;
-            /* identical to box height, or 24px */
-            
-            
-            /* Label */
-            
-            color: #6E7191;
-            
-        }
-
-        .cnct3{
-            position: absolute;
-            width: 293px;
-            height: 24px;
-            left: 33px;
-            top: 166px;
-            
-            /* 16 px Semibold */
-            
-            font-family: Lato;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 150%;
-            /* identical to box height, or 24px */
-            
-            
-            /* Label */
-            
-            color: #6E7191;
-            
-        }
-
-        .plus{
-            position: absolute;
-            width: 32px;
-            height: 32px;
-            left: 397px;
-            top: 162px;
-            
-        }
-        .plus1{
-            position: absolute;
-            width: 32px;
-            height: 32px;
-            left: 397px;
-            top: 98px;
-        }
-        
+    .plus {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      left: 397px;
+      top: 162px;
     }
-
+    .plus1 {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      left: 397px;
+      top: 98px;
+    }
+  }
 }

@@ -6,15 +6,17 @@
     
 // import Subscription from './Subscription';
 
-  import AddProfile from './AddProfile'; 
+  // import AddProfile from './AddProfile'; 
 
   // import Landing from './Landing';
+  // import Setting from './Setting';
+  import Generalsettings from './Generalsettings';
 
 function App() {
   return (
     <div className="App">
 
-    <AddProfile/>
+    <Generalsettings/>
       
     </div>
   );
